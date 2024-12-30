@@ -36,9 +36,9 @@ private:
 
 	Grid* grid = new Grid(10);
 	Function* f = new Function();
-	int initTime = time(NULL);
-	int finalTime;
-	int frameCount;
+	//int initTime = time(NULL);
+	//int finalTime;
+	//int frameCount;
 
 
 public:
@@ -114,13 +114,13 @@ public:
 		showInfo();
 		glutSwapBuffers();
 
-		frameCount++;
-		finalTime = time(NULL);
-		if (finalTime - initTime > 0) {
-			std::cout << "FPS: " << frameCount / (finalTime - initTime) << "\n";
-			frameCount = 0;
-			initTime = finalTime;
-		}
+		// frameCount++;
+		// finalTime = time(NULL);
+		// if (finalTime - initTime > 0) {
+		// 	std::cout << "FPS: " << frameCount / (finalTime - initTime) << "\n";
+		// 	frameCount = 0;
+		// 	initTime = finalTime;
+		// }
 	}
 
 	void drawGrid() {
