@@ -1,5 +1,5 @@
 # 3dcalc
-a 3D graphing calculator using openGL and its fixed pipeline
+a 3D graphing calculator using openGL and its fixed pipeline\n
 requires freeglut, glew and exprtk libraries
 simply type in a function with variables x and z. 
 To move the graph around press the left mouse button and move the cursor around.
